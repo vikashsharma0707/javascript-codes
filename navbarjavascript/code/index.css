@@ -1,0 +1,8 @@
+.navbar {
+    display: none; /* Hidden by default */
+  }
+  
+  .navbar.active {
+    display: block; /* Show when active */
+  }
+  

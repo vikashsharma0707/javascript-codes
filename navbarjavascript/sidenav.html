@@ -1,0 +1,106 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sidenav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header">
+        <button id="menu-toggle" class="menu-toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+      <div class="sidenav">
+        <div class="user">
+          <img src="" class="userimg" />
+
+          <div>
+            <h2>hello</h2>
+            <p>thhhh</p>
+          </div>
+          <img src="" class="stratimg" />
+        </div>
+
+        <ul>
+          <li><i class="fas fa-bars"></i><p>Dashboard</p></li>
+          <li><i class="fas fa-bars"></i><p>Dashboard</p></li>
+          <li><i class="fas fa-bars"></i><p>Dashboard</p></li>
+          <li><i class="fas fa-bars"></i><p>Dashboard</p></li>
+          <!-- <li><i class="fas fa-bars"></i><p>Dashboard</p></li> -->
+        <!-- </ul>
+
+        <ul>
+            <li><p>Settings</p></li>
+        </ul>
+      </div>
+    </div>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+    document.querySelector('.sidenav').classList.toggle('active');
+});
+    </script>
+  </body>
+</html> --> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sidenav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <button id="menu-toggle" class="menu-toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="sidenav">
+        <div class="user">
+          <img src="" class="userimg" alt="User Image" />
+          <div>
+            <h2>Hello</h2>
+            <p>Sample User</p>
+          </div>
+          <img src="" class="stratimg" alt="Strategy Image" />
+        </div>
+
+        <ul>
+          <li><i class="fas fa-bars"></i><p>Dashboard</p></li>
+          <li><i class="fas fa-bars"></i><p>Dashboard</p></li>
+          <li><i class="fas fa-bars"></i><p>Dashboard</p></li>
+          <li><i class="fas fa-bars"></i><p>Dashboard</p></li>
+        </ul>
+
+        <ul>
+          <li><p>Settings</p></li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      document.getElementById('menu-toggle').addEventListener('click', function () {
+        document.querySelector('.sidenav').classList.toggle('active');
+      });
+
+      document.getElementById('menu-toggle').addEventListener('click', function () {
+        document.querySelector('.sidenav').classList.toggle('close');
+      });
+    </script>
+  </body>
+</html>

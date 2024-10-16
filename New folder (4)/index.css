@@ -1,0 +1,61 @@
+*{
+    overflow-x: hidden;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.hello10{
+    margin-bottom: 100%;
+    margin-right: 60%;
+    overflow-x: hidden;
+}
+
+.hello11 img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.hello10 h2{
+    align-items: center;
+    text-align:center;   
+    background-color:#fff;
+}
+
+  .btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:red;
+    color: #fff;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+

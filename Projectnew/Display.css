@@ -1,0 +1,27 @@
+
+body{
+    background-color: aqua;
+}
+
+.hello2{
+    color: white;
+    background-color: brown;
+    width: 30%;
+    margin: auto;
+    font-size: 15px;
+    border-radius: 30px;
+    height: 50px;
+}
+
+.hello2 h1{
+    align-items: center;
+    text-align: center;
+
+}
+.hello3:hover{
+   background-color:aqua;
+}
+
+
+
+

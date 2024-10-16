@@ -1,0 +1,54 @@
+{
+  "employes": [
+    {
+      "ename": "jay",
+      "eemail": "cybrom@gmail.com",
+      "ephone": "667679687",
+      "etrain": "bhoapl",
+      "edate": "30-5-2024",
+      "eclass": "sleeper",
+      "ecomment": "ac",
+      "id": "2aca"
+    },
+    {
+      "id": "5a59",
+      "ename": "Akshay singh",
+      "eemail": "cybrom@gmail.com",
+      "ephone": "07089842324",
+      "etrain": "87676",
+      "edate": "2024-07-21",
+      "eclass": "ac3",
+      "ecomments": "hb,jhv,hvhjfv"
+    },
+    {
+      "id": "7dba",
+      "ename": "ankush singh",
+      "eemail": "cybrom@gmail.com",
+      "ephone": "07089842324",
+      "etrain": "87676",
+      "edate": "2024-07-21",
+      "eclass": "ac3",
+      "ecomments": "good"
+    },
+    {
+      "id": "ade8",
+      "ename": "ankush singh",
+      "eemail": "cybrom@gmail.com",
+      "ephone": "07089842324",
+      "etrain": "87676",
+      "edate": "2024-07-21",
+      "eclass": "sleeper",
+      "ecomments": "fgfhcmhtdmtg"
+    },
+    {
+      "id": "3108",
+      "ename": "ankush singh",
+      "eemail": "cybrom@gmail.com",
+      "ephone": "07089842324",
+      "etrain": "87676",
+      "edate": "2024-07-21",
+      "eclass": "ac3",
+      "ecomments": "good"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "employee": [
+    {
+      "ename": "jay",
+      "eemail": "cybrom@gmail.com",
+      "ephone": "989886766",
+      "edate": "21-07-2024",
+      "etime": "11:00",
+      "edept": "cardiologist",
+      "ead": "good",
+      "id": "03c7"
+    },
+    {
+      "id": "0ad3",
+      "ename": "yashwant",
+      "eemail": "yashwant@hmail.com",
+      "ephone": "5565865i",
+      "edate": "2024-07-22",
+      "etime": "14:57",
+      "edept": "pediatrics",
+      "ecomments": "whkljs"
+    },
+    {
+      "id": "7554",
+      "ename": "yashwant",
+      "eemail": "yashwant@hmail.com",
+      "ephone": "5565865i",
+      "edate": "2024-07-22",
+      "etime": "15:58",
+      "edept": "general",
+      "ecomments": ""
+    },
+    {
+      "id": "315c",
+      "ename": "satyam shukla",
+      "eemail": "satyam@gmail.com",
+      "ephone": "574788787",
+      "edate": "2024-07-22",
+      "etime": "15:03",
+      "edept": "orthopedics",
+      "ecomments": "hjhfrefkjfjfkfjndkf"
+    },
+    {
+      "id": "0225",
+      "ename": "ffffb",
+      "eemail": "cybrom@gmail.com",
+      "ephone": "07089842324",
+      "edate": "2024-07-22",
+      "etime": "14:19",
+      "edept": "pediatrics",
+      "ecomments": "gygmyg"
+    },
+    {
+      "id": "cd51",
+      "ename": "Aksshya ",
+      "eemail": "cybrom@gmail.com",
+      "ephone": "07089842324",
+      "edate": "2024-07-22",
+      "etime": "16:08",
+      "edept": "orthopedics",
+      "edoc": "pediatrics",
+      "ecomments": "uhdufhf"
+    },
+    {
+      "id": "2357",
+      "ename": "raj kumar ",
+      "eemail": "hjhdhdkjhn@gmail.com",
+      "ephone": "587867676",
+      "edate": "2024-07-23",
+      "etime": "20:29",
+      "edept": "pediatrics",
+      "edoc": "cardiology",
+      "ecomments": "ghjhgftftdtrdh"
+    }
+  ]
+}

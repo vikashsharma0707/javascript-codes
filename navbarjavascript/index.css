@@ -1,0 +1,54 @@
+body{
+    background-color: brown;
+}
+
+
+.sidenav{
+    width: 250px;
+    height: 80%;
+    position: fixed;
+    border: 2px solid black;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:space-between;
+    line-height: 100%;
+    flex-direction: column;
+}
+
+
+.nav2 ul{
+    list-style: none;
+    
+}
+
+ul li{
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid black;
+    
+}
+
+.nav3{
+    text-decoration: none;
+    background-color: black;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 18rem auto 18rem;
+}
+
+.leftside {
+  background-color: aqua;
+  height: 100%;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile img {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.tag {
+  height: 80vh;
+  width: 80%;
+  padding: 24px;
+}
+
+.middle {
+  background-color: blue;
+}
+
+.rightside {
+  background-color: brown;
+}/*# sourceMappingURL=index.css.map */

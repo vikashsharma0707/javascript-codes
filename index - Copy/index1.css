@@ -1,0 +1,25 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 18rem auto 18rem;
+}
+
+.leftside{
+    background-color: aqua;
+    height: 100%;
+}
+
+.middle{
+    background-color: blue;
+}
+
+.rightside{
+    background-color: brown;
+}

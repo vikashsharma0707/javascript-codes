@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div  id="hello" class="form-container">
+        <h1   id="hello1">Book an Appointment</h1>
+        <form action="submit_form.php" method="post" id="appointmentForm">
+            <label id="hello3" for="name">Full Name:</label>
+            <input class="hello2" type="text" id="name" name="name" required>
+            
+            <label id="hello3"  for="email">Email:</label>
+            <input type="email" class="hello2" id="email" name="email" required>
+            
+            <label id="hello3"  for="phone">Phone Number:</label>
+            <input type="tel" class="hello2" id="phone" name="phone" required>
+            
+            <label id="hello3"  for="date">Preferred Date:</label>
+            <input type="date" class="hello2" id="date" name="date" required>
+            
+            <label id="hello3"  for="time">Preferred Time:</label>
+            <input type="time" class="hello2" id="time" name="time" required>
+            
+            <label id="hello3"   for="department">Department:</label>
+            <select id="department" name="department" required>
+                <option value="general">General Medicine</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="cardiology">Cardiology</option>
+            </select>
+
+            <label id="hello3"   for="department">Doctor</label>
+            <select id="doctor" name="department" required>8
+                <option value="general">mohit chauhan : General Medicine</option>
+                <option value="pediatrics">Akshay singh : cardiologist</option>
+                <option value="orthopedics">Yashwant singh : urologist</option>
+                <option value="cardiology">Satyam shukla  :  orthopedics</option>
+            </select>
+
+            <label id="hello3"  for="message">Additional Information:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="insert.js"></script>
+    
+</body>
+</html>

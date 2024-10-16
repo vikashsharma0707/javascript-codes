@@ -1,0 +1,204 @@
+/* /* 
+body{
+    background-color: brown;
+}
+
+.sidenav{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background: rgba(255,255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+    
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user h2{
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+    height: -24px;
+    row-gap: -10px;
+}
+
+ul li{
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+ul li p{
+    white-space: nowrap;
+}
+
+ul li i{
+    width: 30px;
+    margin-right: 10px;
+} */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+/* Toggle Button */
+.menu-toggle-btn {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    background: blue;
+    border: none;
+    color: #2c3e50;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu-toggle-btn i {
+    pointer-events: none;
+}
+
+/* Sidebar Styles */
+.sidenav {
+    width: 250px;
+    background-color: #2c3e50;
+    height: 100vh;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: -250px; /* Hide sidebar initially */
+    top: 0;
+    transition: left 0.3s ease-in-out;
+    /* z-index: 999; */
+}
+
+.sidenav.active {
+    left: 0; /* Slide sidebar in when active */
+}
+
+.sidenav .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.sidenav .userimg,
+.sidenav .stratimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    object-fit: cover;
+}
+
+.sidenav .user h2 {
+    font-size: 18px;
+}
+
+.sidenav .user p {
+    font-size: 12px;
+    color: #bdc3c7;
+}
+
+/* Sidebar Menu */
+.sidenav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidenav ul li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidenav ul li:hover {
+    background-color: #34495e;
+}
+
+.sidenav ul li i {
+    font-size: 20px;
+}
+
+.sidenav ul li p {
+    font-size: 16px;
+}
+
+/* Bottom Section - Settings */
+.sidenav ul:last-child li {
+    border-top: 1px solid #7f8c8d;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.sidenav ul:last-child li p {
+    color: #bdc3c7;
+    font-size: 14px;
+}
+
+#menu-toggle{
+    margin-left: 300px;
+}
+/* Responsive Styling */
+@media (min-width: 769px) {
+    .header {
+        margin-left: 250px;
+    }
+
+    .sidenav {
+        left: 0; /* Always show sidebar on larger screens */
+    }
+
+    .menu-toggle-btn {
+        display: none; /* Hide toggle button on larger screens */
+    }
+}
+

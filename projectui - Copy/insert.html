@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="newdashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   <style>
+    .form-container{
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 60%;
+      margin: 10px auto;
+    }
+
+    .form-container h2{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-container label{
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .form-container input[type=text]{
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      transition:border-color 0.3s ease;
+    }
+
+    .form-container input[type="text"]:focus{
+      border-color: #007bff;
+    }
+
+    .form-container button{
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition:background-color 0.3ease;
+
+    }
+
+
+    .form-container button:hover{
+      background-color: #0056b3;
+    }
+   </style>
+  </head>
+  <body>
+    <nav >
+      <ul>
+        <li>
+          <a href="newdashboard.html" class="logo">
+            <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=400" alt="" /> <span class="nav-item">dash board</span></a
+          >
+        </li>
+        <li>
+          <a href="newdashboard.html">
+            <i class="fas fa-home"></i>
+            <span class="new-item">dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="insert.html">
+            <i class="fas fa-user"></i>
+            <span class="new-item">Add employee</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-wallet"></i>
+            <span class="new-item">Wallet</span>
+          </a>
+        </li>
+        <li>
+          <a href="update.html">
+            <i class="fas fa-chart-bar"></i>
+            <span class="new-item">update Data</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-tasks"></i>
+            <span class="new-item">Task</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fas fa-tasks"></i>
+            <span class="new-item">Task</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fas fa-setting"></i>
+            <span class="new-item">Task</span>
+          </a>
+          </li>
+
+          <a href="#">
+            <i class="fas fa-setting"></i>
+            <span class="new-item">logout</span>
+          </a>
+          </li>
+          
+        </li>
+      </ul>
+
+
+     
+    </nav>
+
+    <div class="hello">
+      <h1>dashboard</h1>
+   </div >
+
+   <div class="form-container">
+         <h2>Enter details</h2>
+         <label for="eno">Enter Employee,:</label>
+         <input type="text" id="eno">
+
+         <label for="nm">Enter Name,:</label>
+         <input type="text" id="nm">
+
+
+         <label for="city">Enter city,:</label>
+         <input type="text" id="city">
+
+         <label for="salary">Enter salary,:</label>
+         <input type="text" id="salary">
+
+         <button id="btn1">Data save</button>
+   </div>
+   <script src="/js/insert.js"></script>
+    
+  </body>
+</html>
+
+
+
